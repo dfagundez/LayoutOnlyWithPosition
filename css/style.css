@@ -1,0 +1,176 @@
+/* Google Font Family Lato*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Color Theme Swatches in Hex */
+.green-1-hex { background-color: #04D960; }
+.green-2-hex { background-color: #04BF55; }
+.green-3-hex { background-color: #71D995; }
+.white-4-hex { background-color: #F2F2F2; }
+.black-5-hex { background-color: #0D0D0D; }
+
+/* General Styles*/
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Style*/
+.header-box
+{
+    height: 10vh;
+    min-height: 60px;
+}
+
+.header-box h1
+{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.header-box nav
+{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+}
+
+.header-box ul
+{
+    list-style: none;
+    margin: 15px 0;
+}
+
+.header-box ul li
+{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.header-box ul li a:hover
+{
+    color: rgb(40, 172, 255);
+}
+
+/* Main Style */
+.main-box
+{
+    margin-top: 15px;
+    position: absolute;
+    right: 0;
+    width: 84vw;
+    height: auto;
+    min-height: 40vh;
+}
+
+.main-box__img figure img
+{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.main-box__img
+{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-box__info
+{
+    position: relative;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-box__info_special_price
+{
+    text-decoration: line-through;
+}
+
+.btn-purchase
+{
+    color: #04D960;
+    background: transparent;
+    border: 2px solid #04D960;
+    border-radius: 6px;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-purchase:hover
+{
+    background-color: #04D960;
+    color: #F2F2F2;
+}
+
+/* Aside Style */
+.aside-box
+{
+    width: 20vw;
+    min-width: 200px;
+    max-width: 300px;
+    height: auto;
+    min-height: 80vh;
+    text-align: center;
+    border-right: 1px solid black;
+}
+
+.aside-box figure
+{
+    margin: 0;
+}
+
+.aside-box figure a img
+{
+    margin: 10px auto;
+    min-width: 20%;
+    max-width: 45%;
+    border-radius: 10px;
+}
+
+/* Footer Style */
+.footer-box
+{
+    height: auto;
+    min-height: 10vh;
+    min-height: 4vh;
+    text-align: center;
+    padding-top: 18px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-box div
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-box img
+{
+    width: 20px;
+    margin-left: 10px;
+}
+
+.footer-box div:first-child
+{
+    margin-right: 20px;
+}
+
+.footer-box div:last-child
+{
+    margin-left: 20px;
+}
